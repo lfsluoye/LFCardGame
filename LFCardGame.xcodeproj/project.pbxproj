@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E23C5FF1D6097B600DF274D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E23C5FE1D6097B600DF274D /* AppDelegate.swift */; };
+		9E23C6061D6097B600DF274D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E23C6051D6097B600DF274D /* Assets.xcassets */; };
+		9E23C6091D6097B600DF274D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E23C6071D6097B600DF274D /* LaunchScreen.storyboard */; };
+		9E23C6121D60984900DF274D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E23C6101D60984900DF274D /* GameViewController.swift */; };
+		9E23C6131D60984900DF274D /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E23C6111D60984900DF274D /* GameViewController.xib */; };
+		9E23C6161D609B5800DF274D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E23C6151D609B5800DF274D /* Card.swift */; };
+		9E7065431D65F62200CBA3E3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7065421D65F62200CBA3E3 /* Game.swift */; };
+		9E8C8FC01D64A71A00E8DCDB /* Poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C8FBF1D64A71A00E8DCDB /* Poker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E23C5FB1D6097B600DF274D /* LFCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E23C5FE1D6097B600DF274D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E23C6051D6097B600DF274D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E23C6081D6097B600DF274D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E23C60A1D6097B600DF274D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E23C6101D60984900DF274D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9E23C6111D60984900DF274D /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		9E23C6151D609B5800DF274D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9E7065421D65F62200CBA3E3 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9E8C8FBF1D64A71A00E8DCDB /* Poker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E23C5F81D6097B600DF274D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E23C5F21D6097B600DF274D = {
+			isa = PBXGroup;
+			children = (
+				9E23C5FD1D6097B600DF274D /* LFCardGame */,
+				9E23C5FC1D6097B600DF274D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E23C5FC1D6097B600DF274D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E23C5FB1D6097B600DF274D /* LFCardGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E23C5FD1D6097B600DF274D /* LFCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				9E23C5FE1D6097B600DF274D /* AppDelegate.swift */,
+				9E23C6141D609B4300DF274D /* Model */,
+				9E23C6101D60984900DF274D /* GameViewController.swift */,
+				9E23C6111D60984900DF274D /* GameViewController.xib */,
+				9E23C6051D6097B600DF274D /* Assets.xcassets */,
+				9E23C6071D6097B600DF274D /* LaunchScreen.storyboard */,
+				9E23C60A1D6097B600DF274D /* Info.plist */,
+			);
+			path = LFCardGame;
+			sourceTree = "<group>";
+		};
+		9E23C6141D609B4300DF274D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E23C6151D609B5800DF274D /* Card.swift */,
+				9E8C8FBF1D64A71A00E8DCDB /* Poker.swift */,
+				9E7065421D65F62200CBA3E3 /* Game.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E23C5FA1D6097B600DF274D /* LFCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E23C60D1D6097B600DF274D /* Build configuration list for PBXNativeTarget "LFCardGame" */;
+			buildPhases = (
+				9E23C5F71D6097B600DF274D /* Sources */,
+				9E23C5F81D6097B600DF274D /* Frameworks */,
+				9E23C5F91D6097B600DF274D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFCardGame;
+			productName = LFCardGame;
+			productReference = 9E23C5FB1D6097B600DF274D /* LFCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E23C5F31D6097B600DF274D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LFS;
+				TargetAttributes = {
+					9E23C5FA1D6097B600DF274D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T58764V53J;
+					};
+				};
+			};
+			buildConfigurationList = 9E23C5F61D6097B600DF274D /* Build configuration list for PBXProject "LFCardGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E23C5F21D6097B600DF274D;
+			productRefGroup = 9E23C5FC1D6097B600DF274D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E23C5FA1D6097B600DF274D /* LFCardGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E23C5F91D6097B600DF274D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E23C6091D6097B600DF274D /* LaunchScreen.storyboard in Resources */,
+				9E23C6061D6097B600DF274D /* Assets.xcassets in Resources */,
+				9E23C6131D60984900DF274D /* GameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E23C5F71D6097B600DF274D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E23C6121D60984900DF274D /* GameViewController.swift in Sources */,
+				9E7065431D65F62200CBA3E3 /* Game.swift in Sources */,
+				9E23C6161D609B5800DF274D /* Card.swift in Sources */,
+				9E23C5FF1D6097B600DF274D /* AppDelegate.swift in Sources */,
+				9E8C8FC01D64A71A00E8DCDB /* Poker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E23C6071D6097B600DF274D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E23C6081D6097B600DF274D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E23C60B1D6097B600DF274D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E23C60C1D6097B600DF274D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E23C60E1D6097B600DF274D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.LFCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E23C60F1D6097B600DF274D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LFCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.LFCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E23C5F61D6097B600DF274D /* Build configuration list for PBXProject "LFCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E23C60B1D6097B600DF274D /* Debug */,
+				9E23C60C1D6097B600DF274D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E23C60D1D6097B600DF274D /* Build configuration list for PBXNativeTarget "LFCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E23C60E1D6097B600DF274D /* Debug */,
+				9E23C60F1D6097B600DF274D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E23C5F31D6097B600DF274D /* Project object */;
+}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameViewController" customModule="LFCardGame" customModuleProvider="target">
+            <connections>
+                <outlet property="scoreLabel" destination="8O9-Vd-Zvh" id="T4R-jm-UxY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="allButtons" destination="QKa-TG-aYZ" collectionClass="NSMutableArray" id="bzt-K5-1KF"/>
+                <outletCollection property="allButtons" destination="21B-w0-Dvv" collectionClass="NSMutableArray" id="3P3-fa-Hsu"/>
+                <outletCollection property="allButtons" destination="bax-TR-eZ8" collectionClass="NSMutableArray" id="7cL-0U-8fb"/>
+                <outletCollection property="allButtons" destination="hQd-HM-cb7" collectionClass="NSMutableArray" id="nc0-dq-BTn"/>
+                <outletCollection property="allButtons" destination="r7C-B4-iPI" collectionClass="NSMutableArray" id="Nc3-Qz-jDv"/>
+                <outletCollection property="allButtons" destination="fV6-4g-Obd" collectionClass="NSMutableArray" id="lHP-45-kGb"/>
+                <outletCollection property="allButtons" destination="L2S-0J-x4p" collectionClass="NSMutableArray" id="Qil-xX-vyP"/>
+                <outletCollection property="allButtons" destination="FJA-3P-4A7" collectionClass="NSMutableArray" id="ZK2-6n-V2J"/>
+                <outletCollection property="allButtons" destination="8RP-QS-dvr" collectionClass="NSMutableArray" id="4nf-df-43w"/>
+                <outletCollection property="allButtons" destination="AZl-Uq-0fF" collectionClass="NSMutableArray" id="eZu-Xa-8mn"/>
+                <outletCollection property="allButtons" destination="Ee4-qH-J16" collectionClass="NSMutableArray" id="UJl-ea-F7e"/>
+                <outletCollection property="allButtons" destination="eSO-3P-hux" collectionClass="NSMutableArray" id="5S4-TW-yLQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKa-TG-aYZ">
+                    <rect key="frame" x="18" y="38" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="n4z-Lg-Zi3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21B-w0-Dvv">
+                    <rect key="frame" x="91" y="38" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="Onw-2z-DYn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bax-TR-eZ8">
+                    <rect key="frame" x="164" y="38" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="agH-6A-dn9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQd-HM-cb7">
+                    <rect key="frame" x="237" y="38" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="N1M-Sk-dho"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7C-B4-iPI">
+                    <rect key="frame" x="18" y="153" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="KLr-Ra-wrT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fV6-4g-Obd">
+                    <rect key="frame" x="91" y="153" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="MKe-ej-27p"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2S-0J-x4p">
+                    <rect key="frame" x="164" y="153" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="zLo-FN-oJt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJA-3P-4A7">
+                    <rect key="frame" x="237" y="153" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="YhW-gu-QLi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8RP-QS-dvr">
+                    <rect key="frame" x="18" y="263" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="DVz-Nb-swt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AZl-Uq-0fF">
+                    <rect key="frame" x="91" y="263" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="bjn-28-e4G"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ee4-qH-J16">
+                    <rect key="frame" x="164" y="263" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="IXq-VM-DwB"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8O9-Vd-Zvh">
+                    <rect key="frame" x="18" y="399" width="150" height="56"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSO-3P-hux">
+                    <rect key="frame" x="237" y="263" width="65" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="♥️A" backgroundImage="cardfront">
+                        <color key="titleShadowColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickCardButton:" destination="-1" eventType="touchUpInside" id="Dst-kd-nqi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="305" y="447"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cardfront" width="79" height="120"/>
+    </resources>
+</document>
